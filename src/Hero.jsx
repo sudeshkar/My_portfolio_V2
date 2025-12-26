@@ -21,7 +21,7 @@ function Hero(){
             <h1 className=' text-white text-8xl font-Bebas'>Hi, <br/>I'm <span className='text-black'>Sk</span> Sudeshkar
             <p className='text-2xl'>{config.subtitle}</p>
             </h1>
-            <div className='flex md:gap-4 gap-8 mt-8'>
+            <div className='flex md:gap-4 gap-5 mt-8'>
                 <a href={config.social.linkedIn} target='_blank' className="transition-transform duration-300 hover:scale-125 hover:text-white"><FaLinkedin size={40}/> </a>
                 <a href={config.social.geeksforgeeks} target='_blank' className="transition-transform duration-300 hover:scale-125 hover:text-white"><SiGeeksforgeeks size={40}/> </a>
                 <a href={config.social.github} target='_blank' className="transition-transform duration-300 hover:scale-125 hover:text-white"><FaGithub size={40}/> </a>
