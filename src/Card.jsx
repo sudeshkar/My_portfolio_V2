@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = ({ title, description, repoLink, imageUrl, isHosted, liveDemoLink }) => {
+const Card = ({ title, description, repoLink, imageUrl, isHosted, liveDemoLink, driveLink }) => {
   return (
     <div className="relative flex w-80 flex-col rounded-xl bg-white text-gray-700 shadow-md transform transition-all duration-500 ease-out hover:scale-105 hover:shadow-2xl hover:-translate-y-2 opacity-0 animate-fadeUp">
       {/* Image Section */}
@@ -50,6 +50,18 @@ const Card = ({ title, description, repoLink, imageUrl, isHosted, liveDemoLink }
             Live Demo
           </a>
         )}
+        {/* Conditionally Render "Drive Link" Button */}
+        {!isHosted && driveLink && (
+          <a
+            href={driveLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-4 select-none rounded-lg bg-green-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-green-500/20 transition-all hover:shadow-lg hover:shadow-green-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+          >
+            View Drive
+          </a>
+        )}
+
       </div>
     </div>
   );

@@ -3,8 +3,8 @@ import styled from 'styled-components';
 function DownloadButton  () {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = 'https://www.dropbox.com/scl/fi/xpg3npb9k7v14ls0opzjp/Sathieskumar-Sudeshkar-_Resume.pdf?rlkey=i1q7xinxcwvopnvx98ymgymtg&st=578vjqml&dl=1';
-    link.download = 'Sathieskumar-Sudeshkar_Resume.pdf';
+    link.href = 'https://www.dropbox.com/scl/fi/z2bfexnoqjy8e94co7a3x/Sathieskumar-Sudeshkar_Resume_Updated.pdf?rlkey=rn5h77h7m3xfo930z6i7mbrjj&st=d10ccxd4&dl=1';
+    link.download = 'Sathieskumar Sudeshkar_Resume_Updated.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
