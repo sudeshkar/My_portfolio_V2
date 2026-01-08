@@ -1,11 +1,11 @@
-import ResumeImg from "./assets/ResumePic.png";
+import ResumePic from "./assets/ResumePic.png";
 import DownloadButton from "./DownloadButton";
  
 function Resume() {
     return (
         <section className="flex md:flex-row flex-col justify-center bg-secondary p-2" id="resume">
       <div className="md:w-1/2 w-auto m-0 flex justify-end">
-        <img src={ResumeImg} alt="About me" className="rounded-4xl mt-8 md:h-[500px] h-auto md:ml-15 md:mb-5 p-5 w-[500px]" />
+        <img src={ResumePic} alt="About me" className="rounded-4xl mt-8 md:h-[500px] h-auto md:ml-15 md:mb-5 p-5 w-[500px]" />
       </div>
 
       <div className="flex md:w-1/2 mt-8 justify-center ">
