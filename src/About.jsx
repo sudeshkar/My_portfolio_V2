@@ -26,7 +26,7 @@ function About() {
             About Me
           </h1>
 
-          <p className="text-black font-bold text-2xl font-Gruppo">
+          <p className="text-gray-300 font-bold text-2xl font-Gruppo">
             I enjoy exploring emerging technologies and transforming ideas into
             practical, impactful applications.
           </p>
