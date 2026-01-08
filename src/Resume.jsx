@@ -1,4 +1,4 @@
-import ResumeImg from "./assets/Resume.png";
+import ResumeImg from "./assets/ResumePic.png";
 import DownloadButton from "./DownloadButton";
  
 function Resume() {

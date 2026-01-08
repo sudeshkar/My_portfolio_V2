@@ -1,4 +1,4 @@
-import AboutImg from "./assets/AboutMe.png";
+import ProfilePic2 from "./assets/ProfilePic2.png";
 import Button from "./LearnMoreButton";
 import AboutModal from "./AboutModal";
 import { AnimatePresence } from "framer-motion";
@@ -14,7 +14,7 @@ function About() {
     >
       <div className="md:w-1/2">
         <img
-          src={AboutImg}
+          src={ProfilePic2}
           alt="About me"
           className="rounded-4xl mt-8 md:h-[600px] p-5"
         />
